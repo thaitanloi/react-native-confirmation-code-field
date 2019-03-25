@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 3.3.0
+
+- Added new prop `normalizeCode: (code: string) => void` via [#47](https://github.com/retyui/react-native-confirmation-code-field/issues/47) [#41](https://github.com/retyui/react-native-confirmation-code-field/pull/41)
+
 ## 3.2.3
 
 - Fix onPress event handler [#45](https://github.com/retyui/react-native-confirmation-code-field/issues/45)
