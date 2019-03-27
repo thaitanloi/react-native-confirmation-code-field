@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 3.4.0
+
+- Added support for `react-native-web` [#50](https://github.com/retyui/react-native-confirmation-code-field/issues/50)
+
 ## 3.3.0
 
 - Added new prop `normalizeCode: (code: string) => void` via [#47](https://github.com/retyui/react-native-confirmation-code-field/issues/47) [#41](https://github.com/retyui/react-native-confirmation-code-field/pull/41)
