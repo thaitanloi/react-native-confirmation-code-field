@@ -88,6 +88,11 @@ class App extends Component {
 }
 ```
 
+## Analogs
+
+- [react-native-keycode](https://github.com/leanmotherfuckers/react-native-keycode)
+- [react-native-pin-code](https://github.com/gkueny/react-native-pin-code)
+
 ## How it works?
 
 This component consists of:
