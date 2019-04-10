@@ -5,7 +5,7 @@
 - [API](#api)
   - [Base props](#base-props)
     - [`onFulfill: (code: string) => void`](#onfulfill-code-string--void)
-    - [`normalizeCode?: (code: string) => void`](#normalizecode-code-string--void)
+    - [`normalizeCode?: (code: string) => string`](#normalizecode-code-string--string)
     - [`autoFocus?: boolean`](#autofocus-boolean)
     - [`codeLength?: number`](#codelength-number)
     - [`defaultCode?: string`](#defaultcode-string)
@@ -42,7 +42,7 @@ Callback function called when fulfilling code.
 
 **Required**
 
-### `normalizeCode?: (code: string) => void`
+### `normalizeCode?: (code: string) => string`
 
 This function will called before setState will apply a new code. It useful when you need check pasted user text.
 
