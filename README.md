@@ -18,7 +18,7 @@ A react-native confirmation code field compatible with IOS, Android and Web Plat
 
 - [API documentation](docs/API.md)
 - [Example](examples)
-- Live demo [IOS / Android](https://snack.expo.io/@retyui/demo-for-react-native-confirmation-code-field), [react-native-web](https://retyui.github.io/react-native-confirmation-code-field/)
+- Live demo [IOS / Android](https://snack.expo.io/@retyui/demo-for-react-native-confirmation-code-field), [react-native-web](https://react-native-confirmation-code-field.netlify.com/)
 
 ## Screenshots
 
