@@ -3,26 +3,26 @@
 [![npm](https://img.shields.io/npm/v/react-native-confirmation-code-field.svg)](https://www.npmjs.com/package/react-native-confirmation-code-field)
 [![Travis](https://img.shields.io/travis/retyui/react-native-confirmation-code-field.svg?label=unix)](https://travis-ci.org/retyui/react-native-confirmation-code-field)
 
-A react-native confirmation code field compatible with IOS, Android and Web Platforms (based on [this](https://github.com/ttdung11t2/react-native-confirmation-code-input) project [Migration Guide](docs/migration.md))
+A react-native confirmation code field compatible with iOS, Android and Web Platforms (based on [this](https://github.com/ttdung11t2/react-native-confirmation-code-input) project [Migration Guide](docs/migration.md))
 
 ### Component features:
 
 - 🔮 Simple. Easy to use;
-- 🍎 IOS "fast paste SMS-code" support (\* and custom code paste for Android);
+- 🍎 Support "fast paste SMS-code" on iOS. And custom code paste for Android;
 - 🚮 Clearing part of the code by clicking on the cell;
-- ⚡ `blur()` and `focus()` methods support;
+- ⚡ `blur()` and `focus()` methods;
 - 🛠 Extendable and hackable;
 - 🤓 Readable [changelog](CHANGELOG.md).
 
 ## Links
 
 - [API documentation](docs/API.md)
-- [Example](examples)
-- Live demo [IOS / Android](https://snack.expo.io/@retyui/demo-for-react-native-confirmation-code-field), [react-native-web](https://react-native-confirmation-code-field.netlify.com/)
+- [Examples](examples/src/realDemo)
+- Live demos [iOS / Android](https://snack.expo.io/@retyui/demo-for-react-native-confirmation-code-field), [react-native-web](https://react-native-confirmation-code-field.netlify.com/)
 
 ## Screenshots
 
-<img width="250" height="312" src="https://raw.githubusercontent.com/retyui/react-native-confirmation-code-field/master/docs/img/redDemo.jpg"/><img width="250" height="312" src="https://raw.githubusercontent.com/retyui/react-native-confirmation-code-field/master/docs/img/darkDemo.jpg"/>
+<a href="https://github.com/retyui/react-native-confirmation-code-field/tree/master/examples/src/realDemo/AnimatedExample"><img width="250" src="https://raw.githubusercontent.com/retyui/react-native-confirmation-code-field/master/docs/img/animated.gif"/></a><a href="https://github.com/retyui/react-native-confirmation-code-field/tree/master/examples/src/realDemo/RedExample"><img width="250" src="https://raw.githubusercontent.com/retyui/react-native-confirmation-code-field/master/docs/img/red.gif"/></a><a href="https://github.com/retyui/react-native-confirmation-code-field/tree/master/examples/src/realDemo/DarkExample"><img width="250" src="https://raw.githubusercontent.com/retyui/react-native-confirmation-code-field/master/docs/img/dark.gif"/></a>
 
 ## Install
 

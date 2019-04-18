@@ -1,4 +1,4 @@
-import { StyleSheet, Platform } from 'react-native';
+import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   linearGradient: {
@@ -14,6 +14,7 @@ export default StyleSheet.create({
     color: '#fff',
     fontSize: 25,
     fontWeight: '700',
+    textAlign: 'center',
   },
   inputSubLabel: {
     color: '#fff',
@@ -38,18 +39,14 @@ export default StyleSheet.create({
     height: 70,
     borderRadius: 80,
     backgroundColor: '#fff',
-    ...Platform.select({
-      ios: {
-        shadowColor: '#000',
-        shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.2,
-      },
-      android: {
-        elevation: 5,
-      },
-    }),
     alignItems: 'center',
     justifyContent: 'center',
+    // IOS
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    // Android
+    elevation: 5,
   },
   nextButtonArrow: {
     transform: [{ translateX: -3 }, { rotate: '45deg' }],

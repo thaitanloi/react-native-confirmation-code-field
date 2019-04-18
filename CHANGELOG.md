@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 3.5.0
+
+- Add new prop `CellComponent?: ComponentType`, it can be useful for create some animations [Example](https://github.com/retyui/react-native-confirmation-code-field/tree/master/examples/src/realDemo/AnimatedExample)
+
 ## 3.4.1
 
 - Add RTL support [#55](https://github.com/retyui/react-native-confirmation-code-field/pull/55) by [bamlhs](https://github.com/bamlhs)
@@ -39,12 +43,12 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## 3.1.0
 
-- Fix IOS borderBottom style [#28](https://github.com/retyui/react-native-confirmation-code-field/pull/28/files)
+- Fix iOS borderBottom style [#28](https://github.com/retyui/react-native-confirmation-code-field/pull/28/files)
 
 ## 3.0.0
 
 - Remove base implementation based on `One code cell` === `One TextInput`
-- Fix IOS fast paste SMS code
+- Fix iOS fast paste SMS code
 - Update `inputProps: Function` prop, now is `inputProps: ?Object`
 - Remove `canPasteCode`, now it is works always by default
 - Remove `inputStyle: Function` use `cellProps`
@@ -69,14 +73,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## 2.0.0
 
 - New example for RN 0.57 version
-- Merged cnages from `1.2.1` version
+- Merged changes from `1.2.1` version
 - Update dependencies
   > RN@0.57 - Fixed extreme `<TextInput>` slowness ([5017b86](https://github.com/facebook/react-native/commit/5017b86) by [@gnprice](https://github.com/gnprice))
 - Remove `ignoreCaseWhenCompareCode` and `compareWithCode` props.
 - Add paste support. By default it's disabled. That would enable set `canPasteCode={true}`
 - Rename property `getInputProps` => `inputProps`
 - Rename property `getInputStyle` => `inputStyle`
-- Remove IOS hack for `onKeyPress` (use latest RN version)
+- Remove iOS hack for `onKeyPress` (use latest RN version)
 - Remove `INDEX` typing
 - Fix desynchronization `onFocus` and `setState`
   [#16](https://github.com/retyui/react-native-confirmation-code-field/issues/16)
@@ -110,8 +114,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Add `clear()` method to TypeScript definition [#21](https://github.com/ttdung11t2/react-native-confirmation-code-input/pull/21)
 
 - Fix slowly focus change [10](https://github.com/ttdung11t2/react-native-confirmation-code-input/pull/10)
-- Fix IOS input bag. [#38](https://github.com/ttdung11t2/react-native-confirmation-code-input/pull/38/files)
+- Fix iOS input bag. [#38](https://github.com/ttdung11t2/react-native-confirmation-code-input/pull/38/files)
 
 # 0.0.0
 
-- Fork dead repo
+- Fork dead repository
