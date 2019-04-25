@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Platform } from 'react-native';
 
 export const CELL_SIZE = 70;
 export const CELL_BORDER_RADIUS = 8;
@@ -44,6 +44,11 @@ export default StyleSheet.create({
     height: CELL_SIZE,
     width: CELL_SIZE,
     lineHeight: 55,
+    ...Platform.select({
+      web: {
+        lineHeight: 65,
+      },
+    }),
     fontSize: 30,
     borderRadius: CELL_BORDER_RADIUS,
     color: '#3759b8',
@@ -65,7 +70,7 @@ export default StyleSheet.create({
   nextButton: {
     marginTop: 40,
     borderRadius: 80,
-    height: 80,
+    minHeight: 80,
     backgroundColor: '#3557b7',
     justifyContent: 'center',
     flex: 1,

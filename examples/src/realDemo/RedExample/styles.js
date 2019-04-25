@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   linearGradient: {
@@ -29,6 +29,11 @@ export default StyleSheet.create({
     borderRadius: 3,
     color: '#fff',
     backgroundColor: 'rgba(255,255,255,0.3)',
+    ...Platform.select({
+      web: {
+        lineHeight: 46,
+      },
+    }),
   },
   inputNotEmpty: {
     backgroundColor: 'rgba(0,0,0,0)',

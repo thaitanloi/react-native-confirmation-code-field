@@ -15,6 +15,8 @@ export const styles = StyleSheet.create({
     ...Platform.select({
       web: {
         width: '100%',
+        // Fix iOS aggressive zoom
+        fontSize: 16,
       },
     }),
   },
