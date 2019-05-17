@@ -25,6 +25,7 @@
     "programmatically",
     "KeyboardType",
     "TextInput",
-    "TextInputProps"
+    "TextInputProps",
+    "leozzitowned"
   ]
 }

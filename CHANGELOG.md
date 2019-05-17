@@ -2,6 +2,10 @@
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 3.6.0
+
+- Add new prop `blurOnSubmit?: boolean` [#62](https://github.com/retyui/react-native-confirmation-code-field/pull/62) by [leozzitowned](https://github.com/leozzitowned)
+
 ## 3.5.0
 
 - Add new prop `CellComponent?: ComponentType`, it can be useful for create some animations [Example](https://github.com/retyui/react-native-confirmation-code-field/tree/master/examples/src/realDemo/AnimatedExample)

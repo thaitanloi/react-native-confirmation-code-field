@@ -50,6 +50,7 @@ export default class RedExample extends Component {
           </Text>
           <Text style={styles.inputSubLabel}>to + 375 (25) 666 00 00</Text>
           <CodeFiled
+            blurOnSubmit={false}
             variant="clear"
             codeLength={6}
             keyboardType="numeric"

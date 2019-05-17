@@ -22,6 +22,7 @@ export type Props = $ReadOnly<{|
   onFulfill: (code: string) => void,
 
   // Not required props (rewritten in defaultProps)
+  blurOnSubmit: boolean,
   CellComponent: ComponentType<any>,
   autoFocus: boolean,
   codeLength: number,
