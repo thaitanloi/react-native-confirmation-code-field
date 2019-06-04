@@ -85,7 +85,7 @@ const clampMin = (minValue: number, value: number): number =>
 const MIN_FONT_SIZE = 14;
 
 export const getCellStyle = (props: Props, { isActive }: Options) => {
-  const { size, inactiveColor, activeColor, variant } = props;
+  const { size, inactiveColor, activeColor, variant, ratio } = props;
 
   return {
     color: activeColor,
@@ -97,7 +97,7 @@ export const getCellStyle = (props: Props, { isActive }: Options) => {
     borderColor: isActive ? activeColor : inactiveColor,
     borderRadius: variant === 'border-circle' ? size / 2 : 0,
 
-    width: size,
+    width: size * ratio,
     height: size,
 
     ...getBorderWidthStyle(props),

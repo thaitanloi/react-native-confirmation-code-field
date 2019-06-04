@@ -34,6 +34,7 @@ export type Props = $ReadOnly<{|
   inactiveColor: string,
   inputPosition: InputPositions,
   size: number,
+  ratio: number,
   space: number,
   variant: VariantNames,
   keyboardType: KeyboardType,

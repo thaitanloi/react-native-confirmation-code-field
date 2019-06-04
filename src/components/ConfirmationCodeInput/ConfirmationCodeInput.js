@@ -30,6 +30,7 @@ class ConfirmationCodeInput extends PureComponent<Props, State> {
     inactiveColor: '#ffffff40',
     inputPosition: 'center',
     size: 40,
+    ratio: 0.9,
     space: 8,
     variant: 'border-box',
     keyboardType: 'number-pad',
