@@ -27,12 +27,13 @@ declare module 'react-native-confirmation-code-field' {
     defaultCode?: string;
     normalizeCode?: (code: string) => string;
 
-    CellComponent?: React.ComponentType<any>,
+    CellComponent?: React.ComponentType<any>;
     activeColor?: string;
     cellBorderWidth?: number;
     inactiveColor?: string;
     inputPosition?: InputPositions;
     size?: number;
+    ratio?: number;
     space?: number;
     variant?: VariantNames;
     keyboardType?: ReactNative.KeyboardTypeOptions;
